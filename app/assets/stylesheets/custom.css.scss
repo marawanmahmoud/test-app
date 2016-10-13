@@ -1,2 +1,87 @@
+$navbar-default-bg: #03B9DE;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#logo:hover {
+	color: #D5D4D0;
+	text-decoration: none;
+}
+
+.center  {
+	text-align: center; 
+}
+
+.jumbotron {
+	background-image: asset-url('home_cover.jpg');
+	background-size: cover;
+	height: 550px;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+	font-weight: bold; 
+}
+
+.btn-xlarge{
+	font-size: 1.5em;
+	background-color: #03B9DE;
+	border-color: #03B9DE;
+}
+
+.btn-xlarge:hover {
+	background-color: #D5D4D0;
+}
+
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+}
+
+footer a:link{
+	color: #03B9DE;
+}
+
+footer a:hover{
+	background-color: transparent; 
+	color: #222;
+}
+
+footer small{
+	float: left;
+}
+
+footer ul{
+	float: right;
+	list-style: none;
+}
+
+footer ul li{
+	float: left;
+	margin-left: 15px;
+}
+
+/* for rails links in footer..*/
+#footer {
+	color: #03B9DE;
+}
+
+
+#footer:hover {
+	color: #222;
+}
