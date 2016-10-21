@@ -1,0 +1,15 @@
+boring
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Fri Oct 21 22:28:25 2016 +0200
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    app/assets/javascripts/application.js
+#	deleted:    app/assets/javascripts/articles.coffee
+#	modified:   config/routes.rb
+#
